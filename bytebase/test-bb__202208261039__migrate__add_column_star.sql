@@ -1,0 +1,1 @@
+ALTER TABLE tech_book ADD COLUMN star int;
