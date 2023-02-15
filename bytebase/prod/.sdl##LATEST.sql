@@ -3,6 +3,7 @@ CREATE TABLE t1(
   a int,
   b int,
   c int,
+  d int,
   PRIMARY KEY (a, b)
 );
 
