@@ -5,6 +5,7 @@ CREATE TABLE t1(
   c int,
   d int,
   e int,
+  f int,
   PRIMARY KEY (a, b)
 );
 
