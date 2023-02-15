@@ -5,7 +5,7 @@ CREATE TABLE t1(
   c int,
   d int,
   e int,
-  PRIMARY KEY (a, b)
+  PRIMARY KEY (a, b),
   CHECK(b > 0)
 );
 
