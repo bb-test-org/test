@@ -4,7 +4,6 @@ CREATE TABLE t1(
   b int,
   c int,
   d int,
-  e int,
   PRIMARY KEY (a, b)
 );
 
