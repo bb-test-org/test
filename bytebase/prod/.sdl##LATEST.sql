@@ -6,8 +6,8 @@ CREATE TABLE t1(
   d int,
   e int,
   PRIMARY KEY (a, b),
-  CHECK check_t1_1 (b > 0),
-  CHECK check_t1_2 (c > 0)
+  CONSTRAINT check_t1_1 CHECK (b > 0),
+  CONSTRAINT check_t1_2 CHECK (c > 0)
 );
 
 CREATE UNIQUE INDEX uk_t1_a_b_c on t1(a, b, c);
