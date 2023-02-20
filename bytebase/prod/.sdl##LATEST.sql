@@ -8,7 +8,6 @@ CREATE TABLE t1(
   f int,
   g int,
   x int,
-  z int,
   PRIMARY KEY (a, b),
   CONSTRAINT check_t1_1 CHECK (b > 0),
   CONSTRAINT check_t1_2 CHECK (c > 0)
