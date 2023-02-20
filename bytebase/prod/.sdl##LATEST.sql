@@ -4,6 +4,7 @@ CREATE TABLE t1(
   b int NOT NULL,
   c int,
   d int,
+  d int,
   PRIMARY KEY (a, b),
   CONSTRAINT check_t1_1 CHECK (b > 0),
   CONSTRAINT check_t1_2 CHECK (c > 0)
