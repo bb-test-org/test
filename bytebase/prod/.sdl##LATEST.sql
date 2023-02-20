@@ -3,7 +3,6 @@ CREATE TABLE t1(
   a int NOT NULL,
   b int NOT NULL,
   c int,
-  f int,
   x int,
   PRIMARY KEY (a, b),
   CONSTRAINT check_t1_1 CHECK (b > 0),
