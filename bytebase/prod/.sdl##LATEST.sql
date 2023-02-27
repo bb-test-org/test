@@ -2,7 +2,7 @@
 CREATE TABLE t1(
   a int NOT NULL,
   b int NOT NULL,
-  c int               UNIQUE,
+  c int      UNIQUE,
   d int ,
   x int,
   PRIMARY KEY (a, b),
