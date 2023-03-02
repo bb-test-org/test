@@ -12,7 +12,7 @@ CREATE TABLE user (
   `updater_id` INT NOT NULL DEFAULT '0' COMMENT 'comment',
   `updated_ts` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP() ON UPDATE CURRENT_TIMESTAMP() COMMENT 'comment',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARACTER SET=UTF8MB4 DEFAULT COLLATE=UTF8MB4_0900_AI_CI COMMENT='comment';
+);
 CREATE UNIQUE INDEX `uk_user_id_name` ON `user` (`id`, `name`);
 CREATE INDEX `idx_user_name` ON `user` (`name`);
 CREATE INDEX `idx_user_name22222` ON `user` (`name`);
