@@ -51,4 +51,4 @@ CREATE TABLE `zxc` (
 ) ENGINE=InnoDB DEFAULT CHARACTER SET=UTF8MB4 DEFAULT COLLATE=UTF8MB4_0900_AI_CI;
 
 
-create table a(c1 int);
+create table a(c1 int);                 
