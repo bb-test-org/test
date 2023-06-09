@@ -6,12 +6,12 @@ jobs:
     steps:
       - name: SQL advise
         run: |
-          API="https://d79a-2403-18c0-1000-18d-00.jp.ngrok.io/hook/sql-review/c9171a0e-1271-48f4-9dfb-22ecb31f8109-1673317606"
+          API="https://c701-2406-8dc0-3491-d6d3-9095-e290-5d22-4a66.ngrok-free.app/hook/sql-review/c0dbd00c-86f2-45e2-b765-2747163dfe27-1686296754"
           TOKEN="${{ secrets.SQL_REVIEW_API_SECRET }}"
           echo "Start request $API"
 
           pull_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
-          repository=`echo $GITHUB_REPOSITORY | tr '[:upper:]' '[:lower:]'`
+          repository=`echo $GITHUB_REPOSITORY`
           request_body=$(jq -n \
             --arg repositoryId "$repository" \
             --arg pullRequestId $pull_number \
