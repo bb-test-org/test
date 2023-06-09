@@ -1,1 +1,1 @@
-create tabel t1(a 
+create tabel t1(a  
