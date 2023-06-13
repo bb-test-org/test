@@ -3,6 +3,8 @@ CREATE TABLE `t` (
 );
 
 CREATE TABLE `t1` (
-  `a` INT(11) DEFAULT NULL
+  `a` INT(11) DEFAULT NULL,
+  `b` INT(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (a)
 );
 
