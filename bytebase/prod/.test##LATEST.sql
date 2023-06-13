@@ -11,7 +11,9 @@ CREATE TABLE `t` (
 -- Table structure for `t1`
 --
 CREATE TABLE `t1` (
-  `a` int(11) DEFAULT NULL
+  `a` int(11) DEFAULT NULL,
+  `b` int(11) NOT NULL DEFAULT 0,
+  PRIMARY KEY (a)
 );
 
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
