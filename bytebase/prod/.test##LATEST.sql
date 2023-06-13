@@ -8,3 +8,6 @@ CREATE TABLE `t1` (
   PRIMARY KEY (a)
 );
 
+create table t3 (
+  a int not null
+);
