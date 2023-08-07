@@ -1,1 +1,1 @@
-create table test_sdl(a int_);
+create table test_sdl(a int_ x);
