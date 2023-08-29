@@ -11,4 +11,4 @@ CREATE TABLE `t_partner_residence_scene` (
   `updated_by` varchar(191) NOT NULL COMMENT '',
   `updated_at` datetime NOT NULL COMMENT '',
   `is_deleted` tinyint(1) NOT NULL DEFAULT '0' COMMENT ''
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4; 
